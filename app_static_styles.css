@@ -1,0 +1,6 @@
+body { font-family: Arial, sans-serif; padding: 20px; }
+.editor-container, .chat-container, .blockchain-container { margin-bottom: 20px; }
+textarea { width: 100%; height: 150px; font-family: monospace; }
+#chat-log { border: 1px solid #ccc; height: 200px; overflow-y: scroll; margin-bottom: 5px; padding: 5px; }
+.user { color: blue; }
+.bot { color: green; }
