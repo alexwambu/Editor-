@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ML Learn Editor + Chatbot + Blockchain</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>ML Learn Editor + Chatbot + Blockchain</h1>
+
+  <div class="editor-container">
+    <textarea id="code-editor" placeholder="Write Python ML code here..."></textarea>
+    <button onclick="runCode()">Run ML Code</button>
+    <pre id="output"></pre>
+  </div>
+
+  <div class="chat-container">
+    <div id="chat-log"></div>
+    <input id="chat-input" placeholder="Chat with AI..." onkeydown="if(event.key==='Enter'){sendMessage();}">
+    <button onclick="sendMessage()">Send</button>
+  </div>
+
+  <div class="blockchain-container">
+    <button onclick="launchBlockchain()">Launch Blockchain</button>
+  </div>
+
+  <script src="editor.js"></script>
+  <script src="chatbot.js"></script>
+</body>
+</html>
